@@ -1,0 +1,2651 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/nasr/ontologies/2019/9/untitled-ontology-17"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/nasr/ontologies/2019/9/untitled-ontology-17">
+    <Prefix name="" IRI="http://www.semanticweb.org/nasr/ontologies/2019/9/untitled-ontology-17"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#actinium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aluminium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#americium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#antimony_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#argon_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arsenic_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#astatine_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#barium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#berkelium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beryllium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bismuth_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bohrium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#boron_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bromine_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cadmium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#caesium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#calcium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#californium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carbon_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cerium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chlorine_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chromium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cobalt_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#copernicium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#copper_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#darmstadtium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dubnium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dysprosium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#einsteinium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#erbium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#europium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fermium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flerovium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fluorine_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#francium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gadolinium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gallium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#germanium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gold_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hafnium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hassium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#helium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#holmium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrogen_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iodine_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iridium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iron_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#krypton_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lanthanum_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lawrencium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lead_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lithium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#livermorium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lutetium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#magnesium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manganese_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meitnerium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mendelevium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mercury_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#molybdenum_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moscovium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neilsborium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neodymium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neon_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neptunium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nickel_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nihonium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#niobium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nitrogen_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nobelium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oganesson_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#osmium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oxygen_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#palladium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phosphorus_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#platinum_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plutonium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polonium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#potassium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#praseodymium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#promethium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protactinium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radon_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhenium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhodium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roentgenium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rubidium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ruthenium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rutherfordium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#samarium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scandium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seaborgium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#selenium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#silicon_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#silver_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sodium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strontium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sufur_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tantalum_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#technetium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tellurium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tennessine_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#terbium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thalium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thorium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thulium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tin_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#titanium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tungsten_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uranium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vanadium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#xenon_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ytterbium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yttrium_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zinc_atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zirconium_atom"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#actinium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aluminium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#americium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#antimony_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#argon_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arsenic_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#astatine_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#berkelium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beryllium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bismuth_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bohrium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boron_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bromine_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cadmium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caesium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calcium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#californium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carbon_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cerium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chlorine_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chromium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cobalt_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#copernicium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#copper_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#darmstadtium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dubnium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dysprosium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#einsteinium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#erbium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#europium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fermium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flerovium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fluorine_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#francium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gadolinium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gallium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#germanium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gold_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hafnium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hassium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#helium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#holmium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrogen_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iodine_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iridium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iron_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#krypton_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lanthanum_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lawrencium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lead_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lithium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#livermorium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lutetium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#magnesium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manganese_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meitnerium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mendelevium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mercury_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#molybdenum_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moscovium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neilsborium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neodymium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neon_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neptunium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nickel_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nihonium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#niobium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nitrogen_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nobelium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oganesson_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#osmium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oxygen_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#palladium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phosphorus_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#platinum_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plutonium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polonium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#potassium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#praseodymium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#promethium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protactinium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radon_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhenium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhodium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roentgenium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rubidium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ruthenium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rutherfordium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#samarium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scandium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seaborgium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#selenium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#silicon_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#silver_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sodium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strontium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sufur_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tantalum_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#technetium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tellurium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tennessine_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#terbium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thalium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thorium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thulium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tin_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#titanium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tungsten_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uranium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vanadium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#xenon_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ytterbium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yttrium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zinc_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zirconium_atom"/>
+        <Class IRI="#Atom"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#actinium_atom</IRI>
+        <Literal>Ac</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#actinium_atom</IRI>
+        <Literal>actinium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#actinium_atom</IRI>
+        <Literal>actinium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aluminium_atom</IRI>
+        <Literal>Al</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aluminium_atom</IRI>
+        <Literal>aluminium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aluminium_atom</IRI>
+        <Literal>aluminium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#americium_atom</IRI>
+        <Literal>Am</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#americium_atom</IRI>
+        <Literal>americium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#americium_atom</IRI>
+        <Literal>americium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#antimony_atom</IRI>
+        <Literal>Sb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#antimony_atom</IRI>
+        <Literal>antimony</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#antimony_atom</IRI>
+        <Literal>antimony atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#argon_atom</IRI>
+        <Literal>Ar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#argon_atom</IRI>
+        <Literal>argon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#argon_atom</IRI>
+        <Literal>argon atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#arsenic_atom</IRI>
+        <Literal>As</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#arsenic_atom</IRI>
+        <Literal>arsenic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#arsenic_atom</IRI>
+        <Literal>arsenic atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#astatine_atom</IRI>
+        <Literal>At</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#astatine_atom</IRI>
+        <Literal>astatine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#astatine_atom</IRI>
+        <Literal>astatine atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#barium_atom</IRI>
+        <Literal>Ba</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#barium_atom</IRI>
+        <Literal>barium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#barium_atom</IRI>
+        <Literal>barium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#berkelium_atom</IRI>
+        <Literal>Bk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#berkelium_atom</IRI>
+        <Literal>berkelium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#berkelium_atom</IRI>
+        <Literal>berkelium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#beryllium_atom</IRI>
+        <Literal>Be</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#beryllium_atom</IRI>
+        <Literal>beryllium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#beryllium_atom</IRI>
+        <Literal>beryllium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bismuth_atom</IRI>
+        <Literal>Bi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bismuth_atom</IRI>
+        <Literal>bismuth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bismuth_atom</IRI>
+        <Literal>bismuth atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bohrium_atom</IRI>
+        <Literal>Bh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bohrium_atom</IRI>
+        <Literal>bohrium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bohrium_atom</IRI>
+        <Literal>bohrium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#boron_atom</IRI>
+        <Literal>B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#boron_atom</IRI>
+        <Literal>boron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#boron_atom</IRI>
+        <Literal>boron atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bromine_atom</IRI>
+        <Literal>Br</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bromine_atom</IRI>
+        <Literal>bromine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bromine_atom</IRI>
+        <Literal>bromine atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cadmium_atom</IRI>
+        <Literal>Cd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cadmium_atom</IRI>
+        <Literal>cadmium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cadmium_atom</IRI>
+        <Literal>cadmium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#caesium_atom</IRI>
+        <Literal>Cesium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#caesium_atom</IRI>
+        <Literal>Cs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#caesium_atom</IRI>
+        <Literal>caesium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#caesium_atom</IRI>
+        <Literal>caesium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#caesium_atom</IRI>
+        <Literal>cesium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#calcium_atom</IRI>
+        <Literal>Ca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#calcium_atom</IRI>
+        <Literal>calcium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#calcium_atom</IRI>
+        <Literal>calcium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#californium_atom</IRI>
+        <Literal>Cf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#californium_atom</IRI>
+        <Literal>californium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#californium_atom</IRI>
+        <Literal>californium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#carbon_atom</IRI>
+        <Literal>C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#carbon_atom</IRI>
+        <Literal>carbon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#carbon_atom</IRI>
+        <Literal>carbon atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cerium_atom</IRI>
+        <Literal>Ce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cerium_atom</IRI>
+        <Literal>cerium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cerium_atom</IRI>
+        <Literal>cerium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#chlorine_atom</IRI>
+        <Literal>Cl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#chlorine_atom</IRI>
+        <Literal>chlorine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#chlorine_atom</IRI>
+        <Literal>chlorine atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#chromium_atom</IRI>
+        <Literal>Cr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#chromium_atom</IRI>
+        <Literal>chromium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#chromium_atom</IRI>
+        <Literal>chromium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cobalt_atom</IRI>
+        <Literal>Co</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cobalt_atom</IRI>
+        <Literal>cobalt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cobalt_atom</IRI>
+        <Literal>cobalt atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#copernicium_atom</IRI>
+        <Literal>Cn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#copernicium_atom</IRI>
+        <Literal>copernicium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#copernicium_atom</IRI>
+        <Literal>copernicium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#copper_atom</IRI>
+        <Literal>Cu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#copper_atom</IRI>
+        <Literal>copper</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#copper_atom</IRI>
+        <Literal>copper atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#curium_atom</IRI>
+        <Literal>Cm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#curium_atom</IRI>
+        <Literal>curium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#curium_atom</IRI>
+        <Literal>curium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#darmstadtium_atom</IRI>
+        <Literal>Ds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#darmstadtium_atom</IRI>
+        <Literal>darmstadtium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#darmstadtium_atom</IRI>
+        <Literal>darmstadtium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dubnium_atom</IRI>
+        <Literal>Db</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dubnium_atom</IRI>
+        <Literal>dubnium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dubnium_atom</IRI>
+        <Literal>dubnium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dysprosium_atom</IRI>
+        <Literal>Dy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dysprosium_atom</IRI>
+        <Literal>dysprosium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dysprosium_atom</IRI>
+        <Literal>dysprosium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#einsteinium_atom</IRI>
+        <Literal>Es</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#einsteinium_atom</IRI>
+        <Literal>einsteinium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#einsteinium_atom</IRI>
+        <Literal>einsteinium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#erbium_atom</IRI>
+        <Literal>Er</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#erbium_atom</IRI>
+        <Literal>erbium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#erbium_atom</IRI>
+        <Literal>erbium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#europium_atom</IRI>
+        <Literal>Eu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#europium_atom</IRI>
+        <Literal>europium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#europium_atom</IRI>
+        <Literal>europium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fermium_atom</IRI>
+        <Literal>Fm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fermium_atom</IRI>
+        <Literal>fermium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fermium_atom</IRI>
+        <Literal>fermium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#flerovium_atom</IRI>
+        <Literal>Fl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#flerovium_atom</IRI>
+        <Literal>flerovium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#flerovium_atom</IRI>
+        <Literal>flerovium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fluorine_atom</IRI>
+        <Literal>F</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fluorine_atom</IRI>
+        <Literal>fluorine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fluorine_atom</IRI>
+        <Literal>fluorine atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#francium_atom</IRI>
+        <Literal>Fr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#francium_atom</IRI>
+        <Literal>francium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#francium_atom</IRI>
+        <Literal>francium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gadolinium_atom</IRI>
+        <Literal>Gd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gadolinium_atom</IRI>
+        <Literal>gadolinium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gadolinium_atom</IRI>
+        <Literal>gadolinium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gallium_atom</IRI>
+        <Literal>Ga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gallium_atom</IRI>
+        <Literal>gallium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gallium_atom</IRI>
+        <Literal>gallium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#germanium_atom</IRI>
+        <Literal>Ge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#germanium_atom</IRI>
+        <Literal>germanium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#germanium_atom</IRI>
+        <Literal>germanium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gold_atom</IRI>
+        <Literal>Au</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gold_atom</IRI>
+        <Literal>gold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gold_atom</IRI>
+        <Literal>gold atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hafnium_atom</IRI>
+        <Literal>Hf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hafnium_atom</IRI>
+        <Literal>hafnium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hafnium_atom</IRI>
+        <Literal>hafnium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hassium_atom</IRI>
+        <Literal>Hs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hassium_atom</IRI>
+        <Literal>hassium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hassium_atom</IRI>
+        <Literal>hassium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#helium_atom</IRI>
+        <Literal>He</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#helium_atom</IRI>
+        <Literal>helium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#helium_atom</IRI>
+        <Literal>helium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#holmium_atom</IRI>
+        <Literal>Ho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#holmium_atom</IRI>
+        <Literal>holmium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#holmium_atom</IRI>
+        <Literal>holmium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hydrogen_atom</IRI>
+        <Literal>H</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hydrogen_atom</IRI>
+        <Literal>hydrogen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hydrogen_atom</IRI>
+        <Literal>hydrogen atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#indium_atom</IRI>
+        <Literal>In</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#indium_atom</IRI>
+        <Literal>indium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#indium_atom</IRI>
+        <Literal>indium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iodine_atom</IRI>
+        <Literal>I</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iodine_atom</IRI>
+        <Literal>iodine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iodine_atom</IRI>
+        <Literal>iodine atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iridium_atom</IRI>
+        <Literal>Ir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iridium_atom</IRI>
+        <Literal>iridium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iridium_atom</IRI>
+        <Literal>iridium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iron_atom</IRI>
+        <Literal>Fe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iron_atom</IRI>
+        <Literal>iron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#iron_atom</IRI>
+        <Literal>iron atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#krypton_atom</IRI>
+        <Literal>Kr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#krypton_atom</IRI>
+        <Literal>krypton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#krypton_atom</IRI>
+        <Literal>krypton atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lanthanum_atom</IRI>
+        <Literal>La</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lanthanum_atom</IRI>
+        <Literal>lanthanum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lanthanum_atom</IRI>
+        <Literal>lanthanum atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lawrencium_atom</IRI>
+        <Literal>Lr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lawrencium_atom</IRI>
+        <Literal>lawrencium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lawrencium_atom</IRI>
+        <Literal>lawrencium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lead_atom</IRI>
+        <Literal>Pb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lead_atom</IRI>
+        <Literal>lead</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lead_atom</IRI>
+        <Literal>lead atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lithium_atom</IRI>
+        <Literal>Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lithium_atom</IRI>
+        <Literal>lithium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lithium_atom</IRI>
+        <Literal>lithium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#livermorium_atom</IRI>
+        <Literal>Lv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#livermorium_atom</IRI>
+        <Literal>livermorium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#livermorium_atom</IRI>
+        <Literal>livermorium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lutetium_atom</IRI>
+        <Literal>Lu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lutetium_atom</IRI>
+        <Literal>lutetium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lutetium_atom</IRI>
+        <Literal>lutetium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#magnesium_atom</IRI>
+        <Literal>Mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#magnesium_atom</IRI>
+        <Literal>magnesium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#magnesium_atom</IRI>
+        <Literal>magnesium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#manganese_atom</IRI>
+        <Literal>Mn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#manganese_atom</IRI>
+        <Literal>manganese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#manganese_atom</IRI>
+        <Literal>manganese atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#meitnerium_atom</IRI>
+        <Literal>Mt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#meitnerium_atom</IRI>
+        <Literal>meitnerium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#meitnerium_atom</IRI>
+        <Literal>meitnerium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mendelevium_atom</IRI>
+        <Literal>Md</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mendelevium_atom</IRI>
+        <Literal>mendelevium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mendelevium_atom</IRI>
+        <Literal>mendelevium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mercury_atom</IRI>
+        <Literal>Hg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mercury_atom</IRI>
+        <Literal>mercury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mercury_atom</IRI>
+        <Literal>mercury atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#molybdenum_atom</IRI>
+        <Literal>Mo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#molybdenum_atom</IRI>
+        <Literal>molybdenum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#molybdenum_atom</IRI>
+        <Literal>molybdenum atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#moscovium_atom</IRI>
+        <Literal>Mc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#moscovium_atom</IRI>
+        <Literal>moscovium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#moscovium_atom</IRI>
+        <Literal>moscovium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neilsborium_atom</IRI>
+        <Literal>Ns</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neilsborium_atom</IRI>
+        <Literal>neilsborium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neilsborium_atom</IRI>
+        <Literal>neilsborium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neodymium_atom</IRI>
+        <Literal>Nd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neodymium_atom</IRI>
+        <Literal>neodymium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neodymium_atom</IRI>
+        <Literal>neodymium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neon_atom</IRI>
+        <Literal>Ne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neon_atom</IRI>
+        <Literal>neon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neon_atom</IRI>
+        <Literal>neon atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neptunium_atom</IRI>
+        <Literal>Np</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neptunium_atom</IRI>
+        <Literal>neptunium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#neptunium_atom</IRI>
+        <Literal>neptunium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nickel_atom</IRI>
+        <Literal>Ni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nickel_atom</IRI>
+        <Literal>nickel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nickel_atom</IRI>
+        <Literal>nickel atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nihonium_atom</IRI>
+        <Literal>Nh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nihonium_atom</IRI>
+        <Literal>nihonium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nihonium_atom</IRI>
+        <Literal>nihonium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#niobium_atom</IRI>
+        <Literal>Nb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#niobium_atom</IRI>
+        <Literal>niobium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#niobium_atom</IRI>
+        <Literal>niobium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nitrogen_atom</IRI>
+        <Literal>N</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nitrogen_atom</IRI>
+        <Literal>nitrogen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nitrogen_atom</IRI>
+        <Literal>nitrogen atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nobelium_atom</IRI>
+        <Literal>No</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nobelium_atom</IRI>
+        <Literal>nobelium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nobelium_atom</IRI>
+        <Literal>nobelium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oganesson_atom</IRI>
+        <Literal>Og</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oganesson_atom</IRI>
+        <Literal>oganesson</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oganesson_atom</IRI>
+        <Literal>oganesson atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#osmium_atom</IRI>
+        <Literal>Os</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#osmium_atom</IRI>
+        <Literal>osmium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#osmium_atom</IRI>
+        <Literal>osmium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oxygen_atom</IRI>
+        <Literal>O</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oxygen_atom</IRI>
+        <Literal>oxygen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oxygen_atom</IRI>
+        <Literal>oxygen atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#palladium_atom</IRI>
+        <Literal>Pd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#palladium_atom</IRI>
+        <Literal>palladium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#palladium_atom</IRI>
+        <Literal>palladium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#phosphorus_atom</IRI>
+        <Literal>P</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#phosphorus_atom</IRI>
+        <Literal>phosphorus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#phosphorus_atom</IRI>
+        <Literal>phosphorus atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#platinum_atom</IRI>
+        <Literal>Pt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#platinum_atom</IRI>
+        <Literal>platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#platinum_atom</IRI>
+        <Literal>platinum atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#plutonium_atom</IRI>
+        <Literal>Pu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#plutonium_atom</IRI>
+        <Literal>plutonium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#plutonium_atom</IRI>
+        <Literal>plutonium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#polonium_atom</IRI>
+        <Literal>Po</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#polonium_atom</IRI>
+        <Literal>polonium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#polonium_atom</IRI>
+        <Literal>polonium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#potassium_atom</IRI>
+        <Literal>K</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#potassium_atom</IRI>
+        <Literal>potassium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#potassium_atom</IRI>
+        <Literal>potassium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#praseodymium_atom</IRI>
+        <Literal>Pr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#praseodymium_atom</IRI>
+        <Literal>praseodymium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#praseodymium_atom</IRI>
+        <Literal>praseodymium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#promethium_atom</IRI>
+        <Literal>Pm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#promethium_atom</IRI>
+        <Literal>promethium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#promethium_atom</IRI>
+        <Literal>promethium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#protactinium_atom</IRI>
+        <Literal>Pa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#protactinium_atom</IRI>
+        <Literal>protactinium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#protactinium_atom</IRI>
+        <Literal>protactinium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#radium_atom</IRI>
+        <Literal>Ra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#radium_atom</IRI>
+        <Literal>radium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#radium_atom</IRI>
+        <Literal>radium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#radon_atom</IRI>
+        <Literal>Rn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#radon_atom</IRI>
+        <Literal>radon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#radon_atom</IRI>
+        <Literal>radon atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rhenium_atom</IRI>
+        <Literal>Re</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rhenium_atom</IRI>
+        <Literal>rhenium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rhenium_atom</IRI>
+        <Literal>rhenium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rhodium_atom</IRI>
+        <Literal>Rh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rhodium_atom</IRI>
+        <Literal>rhodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rhodium_atom</IRI>
+        <Literal>rhodium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#roentgenium_atom</IRI>
+        <Literal>Rg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#roentgenium_atom</IRI>
+        <Literal>roentgenium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#roentgenium_atom</IRI>
+        <Literal>roentgenium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rubidium_atom</IRI>
+        <Literal>Rb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rubidium_atom</IRI>
+        <Literal>rubidium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rubidium_atom</IRI>
+        <Literal>rubidium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ruthenium_atom</IRI>
+        <Literal>Ru</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ruthenium_atom</IRI>
+        <Literal>ruthenium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ruthenium_atom</IRI>
+        <Literal>ruthenium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rutherfordium_atom</IRI>
+        <Literal>Rf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rutherfordium_atom</IRI>
+        <Literal>rutherfordium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rutherfordium_atom</IRI>
+        <Literal>rutherfordium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#samarium_atom</IRI>
+        <Literal>Sm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#samarium_atom</IRI>
+        <Literal>samarium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#samarium_atom</IRI>
+        <Literal>samarium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scandium_atom</IRI>
+        <Literal>Sc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scandium_atom</IRI>
+        <Literal>scandium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scandium_atom</IRI>
+        <Literal>scandium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#seaborgium_atom</IRI>
+        <Literal>Sg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#seaborgium_atom</IRI>
+        <Literal>seaborgium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#seaborgium_atom</IRI>
+        <Literal>seaborgium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#selenium_atom</IRI>
+        <Literal>Se</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#selenium_atom</IRI>
+        <Literal>selenium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#selenium_atom</IRI>
+        <Literal>selenium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#silicon_atom</IRI>
+        <Literal>Si</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#silicon_atom</IRI>
+        <Literal>silicon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#silicon_atom</IRI>
+        <Literal>silicon atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#silver_atom</IRI>
+        <Literal>Ag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#silver_atom</IRI>
+        <Literal>silver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#silver_atom</IRI>
+        <Literal>silver atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sodium_atom</IRI>
+        <Literal>Na</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sodium_atom</IRI>
+        <Literal>sodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sodium_atom</IRI>
+        <Literal>sodium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#strontium_atom</IRI>
+        <Literal>Sr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#strontium_atom</IRI>
+        <Literal>strontium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#strontium_atom</IRI>
+        <Literal>strontium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sufur_atom</IRI>
+        <Literal>S</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sufur_atom</IRI>
+        <Literal>sufur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sufur_atom</IRI>
+        <Literal>sufur atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tantalum_atom</IRI>
+        <Literal>Ta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tantalum_atom</IRI>
+        <Literal>tantalum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tantalum_atom</IRI>
+        <Literal>tantalum atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#technetium_atom</IRI>
+        <Literal>Tc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#technetium_atom</IRI>
+        <Literal>technetium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#technetium_atom</IRI>
+        <Literal>technetium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tellurium_atom</IRI>
+        <Literal>Te</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tellurium_atom</IRI>
+        <Literal>tellurium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tellurium_atom</IRI>
+        <Literal>tellurium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tennessine_atom</IRI>
+        <Literal>Tn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tennessine_atom</IRI>
+        <Literal>tennessine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tennessine_atom</IRI>
+        <Literal>tennessine atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terbium_atom</IRI>
+        <Literal>Tb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terbium_atom</IRI>
+        <Literal>terbium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#terbium_atom</IRI>
+        <Literal>terbium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thalium_atom</IRI>
+        <Literal>Tl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thalium_atom</IRI>
+        <Literal>thalium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thalium_atom</IRI>
+        <Literal>thalium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thorium_atom</IRI>
+        <Literal>Th</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thorium_atom</IRI>
+        <Literal>thorium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thorium_atom</IRI>
+        <Literal>thorium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thulium_atom</IRI>
+        <Literal>Tm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thulium_atom</IRI>
+        <Literal>thulium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thulium_atom</IRI>
+        <Literal>thulium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tin_atom</IRI>
+        <Literal>Sn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tin_atom</IRI>
+        <Literal>tin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tin_atom</IRI>
+        <Literal>tin atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#titanium_atom</IRI>
+        <Literal>Ti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#titanium_atom</IRI>
+        <Literal>titanium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#titanium_atom</IRI>
+        <Literal>titanium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tungsten_atom</IRI>
+        <Literal>W</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tungsten_atom</IRI>
+        <Literal>tungsten</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tungsten_atom</IRI>
+        <Literal>tungsten atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#uranium_atom</IRI>
+        <Literal>U</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#uranium_atom</IRI>
+        <Literal>uranium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#uranium_atom</IRI>
+        <Literal>uranium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#vanadium_atom</IRI>
+        <Literal>V</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#vanadium_atom</IRI>
+        <Literal>vanadium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#vanadium_atom</IRI>
+        <Literal>vanadium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#xenon_atom</IRI>
+        <Literal>Xe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#xenon_atom</IRI>
+        <Literal>xenon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#xenon_atom</IRI>
+        <Literal>xenon atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ytterbium_atom</IRI>
+        <Literal>Yb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ytterbium_atom</IRI>
+        <Literal>ytterbium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ytterbium_atom</IRI>
+        <Literal>ytterbium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#yttrium_atom</IRI>
+        <Literal>Y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#yttrium_atom</IRI>
+        <Literal>yttrium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#yttrium_atom</IRI>
+        <Literal>yttrium atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zinc_atom</IRI>
+        <Literal>Zn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zinc_atom</IRI>
+        <Literal>zinc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zinc_atom</IRI>
+        <Literal>zinc atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zirconium_atom</IRI>
+        <Literal>Zr</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zirconium_atom</IRI>
+        <Literal>zirconium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zirconium_atom</IRI>
+        <Literal>zirconium atom</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
