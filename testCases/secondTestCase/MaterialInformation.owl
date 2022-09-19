@@ -5599,7 +5599,7 @@
 
     <!-- http://codata.jp/OML-MaterialInformation#prismatoid -->
 
-    <owl:Class rdf:about="http://codata.jp/OML-MaterialInformation#prismatoid">
+    <owl:Class rdf:about="http://codata.jp/OML-MaterialInformation#Prismatoid">
         <rdfs:subClassOf rdf:resource="http://codata.jp/OML-MaterialInformation#Geometry"/>
     </owl:Class>
     
@@ -5738,7 +5738,7 @@
 
     <!-- http://codata.jp/OML-MaterialInformation#Temperature -->
 
-    <owl:NamedIndividual rdf:about="http://codata.jp/OML-MaterialInformation#Temperature">
+    <owl:NamedIndividual rdf:about="http://codata.jp/OML-MaterialInformation#temperature">
         <rdf:type rdf:resource="http://codata.jp/OML-MaterialInformation#ThermodynamicTemperature"/>
     </owl:NamedIndividual>
     
@@ -8113,7 +8113,7 @@
     <!-- http://codata.jp/OML-MaterialInformation#prismatoid -->
 
     <owl:NamedIndividual rdf:about="http://codata.jp/OML-MaterialInformation#prismatoid">
-        <rdf:type rdf:resource="http://codata.jp/OML-MaterialInformation#prismatoid"/>
+        <rdf:type rdf:resource="http://codata.jp/OML-MaterialInformation#Prismatoid"/>
     </owl:NamedIndividual>
     
 
