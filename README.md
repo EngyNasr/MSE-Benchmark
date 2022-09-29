@@ -119,3 +119,15 @@ The background knowledge ontology acts as a **Resources** (semantic bridge), a m
 
  - The ontology is also chosen as a background knowledge ontology since it incorporates a rich hierarchy and is designed for multiscale materials modelling.
  - In consequence, the importance of the choice of the corresponding background knowledge ontology for each ontology matching process can be discussed.
+
+# MSE in OAEI 2022 Evaluation Results
+
+The following are the results of the participating systems in OAEI 2022 that are completed with the our MSE benchmark
+
+| System   | Link to the full output path | Precision | Recall | F-Measure |
+|----------|------------------------------|-----------|--------|-----------|
+| LogMap   |                              |           |        |           |
+| A-LIOn   |                              |           |        |           |
+| LogMapLt |                              |           |        |           |
+| Matcha   |                              |           |        |           |
+
