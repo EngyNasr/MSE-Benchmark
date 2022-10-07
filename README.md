@@ -4,7 +4,7 @@ This project includes the MSE (Material Sciences and Engineering) benchmark crea
 Albert-Ludwigs-Universität Freiburg:
 [Evaluation of Automatic Ontology Matching for Materials Sciences and Engineering (2020)](https://ad-publications.cs.uni-freiburg.de/theses/Master_Engy_Nasr_2020.pdf). 
 
-This GitHub repository serves for management, further development of the benchmark and evaluation of matching systems in OAEI campaigns. 
+This GitHub repository serves for management and further development of the benchmark as well as for evaluation of matching systems in OAEI campaigns. 
 
 ----
 
