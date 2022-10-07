@@ -5,7 +5,7 @@ This project includes the MSE (Material Sciences and Engineering) Benchmark crea
 The project may also include future improvements for the Benchmark.
 
 **The MSE Benchmark was used for the very first time as MSE track to evaluate ontology matching tools in the OAEI campaign 2022:**
-[**>>> Results of Evaluation for the MSE track within OAEI 2022 <<<**](Results/OAEI2022/OAEI2022_results.md)
+[**-->Results of Evaluation for the MSE track within OAEI 2022**](Results/OAEI2022/OAEI2022_results.md)
 
 [[_TOC_]]
 
