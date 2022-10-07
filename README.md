@@ -54,7 +54,7 @@ The MSE benchmark consists of three test cases. The ontologies chosen do not tar
 
 ***A test case consists of two OWL-ontologies chosen from three different MSE ontologies:***
 
- - **MaterialInformation** ontology created by Prof. Ashino [[Toshihiro Ashino (2010)]](https://pdfs.semanticscholar.org/7f0a/d9346c8664bbb9e7d60c1efbd663a7790cdb.pdf?_ga=2.38778980.631833280.1600761428-1848885946.1600761428)
+ - **MaterialInformation** ontology created by Prof. Ashino [[Toshihiro Ashino (2010)](https://pdfs.semanticscholar.org/7f0a/d9346c8664bbb9e7d60c1efbd663a7790cdb.pdf?_ga=2.38778980.631833280.1600761428-1848885946.1600761428)]
    - The ontology is not openly available, however, it was provided upon request. 
    - The ontology is not based on an upper level ontology, which makes the ontology not easily interoperable with other MSE ontologies. 
    - The ontology is also divided into smaller ontologies (partitions). 
