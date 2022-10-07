@@ -1,6 +1,10 @@
 # MSE Benchmark V1.0
 
-This project includes the MSE (Material Sciences and Engineering) Benchmark created by Engy Nasr during the Master's Thesis: [Evaluation of Automatic Ontology Matching for Materials Sciences and Engineering](https://ad-publications.cs.uni-freiburg.de/theses/Master_Engy_Nasr_2020.pdf). This GitHub repository serves for management, further development of the benchmark and evaluation of matching systems in OAEI campaigns. 
+This project includes the MSE (Material Sciences and Engineering) Benchmark created by Engy Nasr during the Master's Thesis: 
+
+[Evaluation of Automatic Ontology Matching for Materials Sciences and Engineering](https://ad-publications.cs.uni-freiburg.de/theses/Master_Engy_Nasr_2020.pdf). 
+
+This GitHub repository serves for management, further development of the benchmark and evaluation of matching systems in OAEI campaigns. 
 
 ----
 
