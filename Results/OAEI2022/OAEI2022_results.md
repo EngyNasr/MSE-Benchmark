@@ -40,7 +40,7 @@ The first test case evaluates matching systems regarding their capability to fin
 | LogMapLight |         67        |   0.851   | 0.189  | 0.309      |   83     |
 | Matcha   |            6         |   0.000   | 0.000  | 0.000      |   15     |
 
-The second test case evaluates matching systems to find correspondences between the large BFO-based MaterialInformation to the mid-sized MatOnto which does not base on an upper level ontology. In comparison to the first test case, two of the four evaluated systems (A-LIOn, Matcha) need much longer to calculate the alignment, suprisingly two of them are even quicker (LogMap, LogMapLight). A-LIOn finds a large number of correspondences, hence has the highest recall of the evaluated systems, but 100 of the 163 found correspondences are incorrect which results in a moderate F1-measure of 0.271 at a rather slow calculation time of over 3 minutes. LogMap stands out again for its very fast computation time of only 3s at a high precision of 0.881. Since LogMap found only 59 correct correspondences out of the 302 reference correspondences, the recall is rather low but the F1-measure is still the highest of the tested systems. LogMapLight is 80s slower, finds the same amount of correspondences with 2 additional false positives, so results in a slightly lower overall F1-measure than LogMap. Matcha finds 6 wrong correspondences, where classes are matched to object properties again. 
+The second test case evaluates matching systems to find correspondences between the large-sized MaterialInformation to the mid-sized and BFO-based MatOnto which does not base on an upper level ontology. In comparison to the first test case, two of the four evaluated systems (A-LIOn, Matcha) need much longer to calculate the alignment, suprisingly two of them are even quicker (LogMap, LogMapLight). A-LIOn finds a large number of correspondences, hence has the highest recall of the evaluated systems, but 100 of the 163 found correspondences are incorrect which results in a moderate F1-measure of 0.271 at a rather slow calculation time of over 3 minutes. LogMap stands out again for its very fast computation time of only 3s at a high precision of 0.881. Since LogMap found only 59 correct correspondences out of the 302 reference correspondences, the recall is rather low but the F1-measure is still the highest of the tested systems. LogMapLight is 80s slower, finds the same amount of correspondences with 2 additional false positives, so results in a slightly lower overall F1-measure than LogMap. Matcha finds 6 wrong correspondences, where classes are matched to object properties again. 
 
 
 ### Third Test Case
@@ -51,10 +51,21 @@ The second test case evaluates matching systems to find correspondences between 
 | LogMapLight |         56        |   0.911   | 0.810  | 0.857      | 84       |
 | Matcha   |            4         |   0.500   | 0.032  | 0.060      | 21       |
 
+The third test case evaluates matching systems to find correspondences between the large-sized MaterialInformation and the mid-sized EMMO. All evaluated systems compute the alignments in under 3 minutes. Surprisingly, A-LIOn takes the longest to compute the alignments but does not find any correspondence which might be due to some reasoning errors that were produced for EMMO. LogMap again stands out for fast computation time and high precision with 53 correct correspondences out of the 56 in total. Although still 10 reference correspondences were missing, the F1-measure of 0.891 is the best of the whole MSE track. Again 70s slower is LogMapLight with a slightly lower precision with 2 additional false positives again. 2 aditional false negatives result in a slightly worse F1-measure of 0.857 - but still the second best of the whole MSE track. Surprisingly, Matcha finds 2 correct correspondences out of 63 and earns a recall but a modest precision of 0.5 at a rather fast calculation time of 21s. 
+
 ## Conclusions
+Unfortunately, none of the evaluated matcher finds all reference correspondences correctly. 
+
+But LogMap stands out for its very fast computing time with very high precision at the same time. LogMapLight is significantly slower in every test case and almost constantly shows worse results - only in the first test case the recall of LogMapLight is higher than LogMap. In our opinion, LogMap would be recommended for MSE applications where high precision is demanded, LogMapLight does not appear to bring any decisive advantage. 
+
+Matcha in its current implementation is not suited for MSE applications. 
+
+A-LIOn produces errors while reasoning on the EMMO ontology, which is the only of the used MSE ontologies with a significant proportion of axioms. According to the annotations in EMMO, this ontology exclusively functions with the FaCT++ reasoner. That might be a cause for the occuring reasoning errors of A-LIOn. 
+
+Since the creation of this MSE benchmark, a large amount of new MSE ontologies have been developed and utilized in various applications. Furthermore, in contrast to the early days of this benchmarks, those ontologies are now easily accessible on the new [Matportal](https://matportal.org/). In the future the mse benchmark should be updated with currently most utilized MSE ontologies, which includes the [BWMD-mid](https://matportal.org/ontologies/BWMD-MID), the [MSEO](https://matportal.org/ontologies/MSEO), the [PMDco](https://github.com/materialdigital/core-ontology), the [prov-o](https://www.ebi.ac.uk/ols/ontologies/prov). Also, multi-ontology matching and knowledge graph matching should be considered. 
 
 ## Contact
-This track is organized by Engy Nasr and Martin Huschka. If anything is unclear, if you have any comments on the MSE track or would like to contribute, feel free to write an email to huschka [at] emi [.] fraunhofer [.] de.
+This track is organized by Engy Nasr and evaluation was performed by Martin Huschka. If anything is unclear, if you have any comments on the MSE track or would like to contribute, feel free to write an email to huschka [at] emi [.] fraunhofer [.] de.
 
 
 
