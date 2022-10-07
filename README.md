@@ -7,7 +7,7 @@ The project may also include future improvements for the Benchmark.
 **The MSE Benchmark was used for the very first time as MSE track to evaluate ontology matching tools in the OAEI campaign 2022:**  
 [**Results of the Evaluation for the MSE track within OAEI 2022**](Results/OAEI2022/OAEI2022_results.md)
 
-## Table of content
+## Table of Content
 
 - [MSE Benchmark Description](#msebenchmarkdescription)
     - [MSE Benchmark Structure](#msebenchmarkstructure)
@@ -16,6 +16,7 @@ The project may also include future improvements for the Benchmark.
     - [Background Knowledge Ontologies](#backgroundknowledgeontologies)
 
 <a name="msebenchmarkdescription"/>  
+
 ## MSE Benchmark Description
 
 ***The MSE Benchmark V1.0 consists of:***
