@@ -1,4 +1,4 @@
-# MSE Benchmark V1.1
+# MSE Benchmark v1.1
 
 This project includes the MSE (Material Sciences and Engineering) benchmark created by Engy Nasr during her Master's Thesis in Computer Science at the 
 Albert-Ludwigs-Universität Freiburg:
@@ -24,7 +24,7 @@ This GitHub repository serves for management and further development of the benc
 <a name="msebenchmarkdescription"/>  
 
 ## MSE Benchmark Description
-The MSE Benchmark v1.1 consists of three MSE test cases each including two ontologies, a manual reference alignment for every test case and MSE-related background knowledge ontologies:
+The MSE Benchmark v1 consists of three MSE test cases each including two ontologies, a manual reference alignment for every test case and MSE-related background knowledge ontologies:
 
 - **Test Cases**
     - First Test Case: 
