@@ -4,7 +4,7 @@ This project includes the MSE (Material Sciences and Engineering) Benchmark crea
 
 The project may also include future improvements for the Benchmark.
 
-The MSE Benchmark is also used as the first MSE Track to evaluate ontology matching tools in the OAEI 2021([OAEI Page](http://oaei.ontologymatching.org/2021/))
+The MSE Benchmark is used as the first MSE track to evaluate ontology matching tools in the [OAEI campaign 2022](Results/OAEI2022/OAEI2022_results.md))
 
 ## MSE Benchmark Structure
 
@@ -119,15 +119,3 @@ The background knowledge ontology acts as a **Resources** (semantic bridge), a m
 
  - The ontology is also chosen as a background knowledge ontology since it incorporates a rich hierarchy and is designed for multiscale materials modelling.
  - In consequence, the importance of the choice of the corresponding background knowledge ontology for each ontology matching process can be discussed.
-
-# MSE in OAEI 2022 Evaluation Results
-
-The following are the results of the participating systems in OAEI 2022 that are completed with the our MSE benchmark
-
-| System   | Link to the full output path | Precision | Recall | F-Measure |
-|----------|------------------------------|-----------|--------|-----------|
-| LogMap   |                              |           |        |           |
-| A-LIOn   |                              |           |        |           |
-| LogMapLt |                              |           |        |           |
-| Matcha   |                              |           |        |           |
-
