@@ -5,7 +5,7 @@ This is the first year the MSE track participates in a OAEI campaign. We are pro
 We performed the evaluation using the MELT platform on a Windows 10 system with 16 GB RAM. Every participating system was executed in its standard setting and we compare precision, recall and F-measure with regard to the reference alignment for each test case as well as computation time. 
 
 ## Participating systems
-This year five systems registered on this track, each of which was used for evaluation. AMD produced an exception and produced empty alignment files, so results are only available for four of the matchers:
+This year five systems registered on this track, each of which was used for evaluation with the three test cases of the MSE benchmark. AMD produced an exception and produced empty alignment files, so results are only available for four of the matchers:
 - A-LIOn
 - LogMap
 - LogMapLite
