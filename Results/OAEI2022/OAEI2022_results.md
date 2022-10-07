@@ -20,7 +20,7 @@ We have collected all generated alignments and make them available in a zip-file
 
 The following are the results of the participating systems in OAEI 2022 within the MSE track.
 
-**First Test Case**
+### First Test Case
 
 | System   | Correspondences | Precision | Recall | F1-Measure | Time [s] |
 |:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
@@ -31,7 +31,7 @@ The following are the results of the participating systems in OAEI 2022 within t
 
 The first test case evaluates matching systems regarding their capability to find "equal" (=), "superclass" (>) and "subclass" (<) correspondences. None of the systems finds correspondences other than "equal (=)". All evaluated systems compute the alignment in less than a minute. LogMap stands out with its very fast calculation time and maximum precision of 1.0. However, since only one correspondence was found, the recall and F1-measure are low (0.083). In direct comparison, LogMapLight calculates the alignment in 27s, achieves much lower precision of 0.4 but due to greater amount of correctly found correspondences the F1-measure is the best of the tested systems. A-LIOn finds the highest number of correspondences with 23 but 20 of those are false positives which results in the second best F1-measure at the lowest calculation time. Matcha finds 4 incorrect crorrespondences and is worst participant of the MSE test case one. Investigating the reason for the bad result, matcha appears to match classes with objectpropertiers, e.g. "Temperature=hasTemperature".
 
-**Second Test Case**
+### Second Test Case
 
 | System   | Correspondences | Precision | Recall | F1-Measure | Time [s] |
 |:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
@@ -40,7 +40,7 @@ The first test case evaluates matching systems regarding their capability to fin
 | LogMapLight |         67        |   0.851   | 0.189  | 0.309      |   83     |
 | Matcha   |            6         |   0.000   | 0.000  | 0.000      |   15     |
 
-**Third Test Case**
+### Third Test Case
 | System   | Correspondences | Precision | Recall | F1-Measure | Time [s] |
 |:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
 | A-LIOn   |           0          |   0.000   | 0.000  | 0.000      | 135      |
