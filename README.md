@@ -44,7 +44,7 @@ The MSE Benchmark V1.0 consists of three MSE test cases each including two ontol
 - **Resources (Background Knowledge Ontologies)**
     - Periodic Table Dictionary
     - EMMO (European Materials Modelling Ontology)
-    - Other resources were used like WordNet which can be found Online ([Github Page](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge))
+    - Other resources were used like WordNet which can be found on their [Github repo](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge).
 
 <a name="msetestcases"/>  
 
@@ -61,13 +61,13 @@ The MSE benchmark consists of three test cases. The ontologies chosen do not tar
    - The partitions are Environment, Geometry, Material Information, Manufacturing Process, Property, Substance, Unit Dimension, Structure, Equation and Physical Constant. 
    - The full ontology consists of 545 classes, 98 properties (relations) and 411 individuals (instances of the classes).
 ####
- - **MatOnto** ontology available on GitHub [Page](https://github.com/inovexcorp/MatOnto-Ontologies)
+ - **MatOnto** ontology available on [GitHub](https://github.com/inovexcorp/MatOnto-Ontologies)
    - The cloned ontology's files are RDF data, saved in Turtle (.ttl) format. 
    - The files are converted from Turtle format into RDF/XML, (.OWL).
    - The ontology is based on the upper level ontology, the BFO. 
    - The full ontology consists of 847 classes, 96 properties (relations) and 131 individuals (instances of the classes).
 ####
-- **EMMO** (European Materials Modelling Ontology) v1.0.0-alpha2, available on Github [Page](https://github.com/emmo-repo/EMMO)
+- **EMMO** (European Materials Modelling Ontology) v1.0.0-alpha2, available on [Github](https://github.com/emmo-repo/EMMO)
     - EMMO is an ongoing MSE ontology.
     - This version is downloaded on November 2020.
     - EMMO is an upper and mid level ontology.
