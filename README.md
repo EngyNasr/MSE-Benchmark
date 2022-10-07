@@ -17,29 +17,29 @@ The project may also include future improvements for the Benchmark.
 <a name="msebenchmarkdescription"/>  
 
 ## MSE Benchmark Description
-The MSE Benchmark V1.0 consists of:
- - Three MSE test cases including two ontologies
+The MSE Benchmark V1.0 consists of three MSE test cases each including two ontologies, 
     - A manual reference alignment for every test case
  - MSE background knowledge ontologies
 
 - ***Test Cases***
- - First Test Case: 
-  - Source Ontology (O1)
-  - Target Ontology (O2)
-  - Manual Reference Alignment (R) 
- - Second Test Case: 
-  - Source Ontology (O1)
-  - Target Ontology (O2)
-  - Manual Reference Alignment (R)
- - Third Test Case: 
-  - Source Ontology (O1)
-  - Target Ontology (O2)
-  - Manual Reference Alignment (R)  
+    - First Test Case: 
+        - Source Ontology (O1)
+        - Target Ontology (O2)
+        - Manual Reference Alignment (R) 
+    - Second Test Case: 
+        - Source Ontology (O1)
+        - Target Ontology (O2)
+        - Manual Reference Alignment (R)
+    - Third Test Case: 
+        - Source Ontology (O1)
+        - Target Ontology (O2)
+        - Manual Reference Alignment (R)  
+        ####
 
 - ***Resouces (Background Knowledge Ontologies)***
- - Periodic Table Dictionary
- - EMMO (European Materials Modelling Ontology)
- - Other resources were used like WordNet which can be found Online ([Github Page](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge))
+    - Periodic Table Dictionary
+    - EMMO (European Materials Modelling Ontology)
+    - Other resources were used like WordNet which can be found Online ([Github Page](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge))
 
 <a name="msetestcases"/>  
 
