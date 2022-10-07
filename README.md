@@ -4,13 +4,12 @@ This project includes the MSE (Material Sciences and Engineering) Benchmark crea
 
 The project may also include future improvements for the Benchmark.
 
-**The MSE Benchmark was used for the very first time as MSE track to evaluate ontology matching tools in the OAEI campaign 2022:**  
-[**Results of the Evaluation for the MSE track within OAEI 2022**](Results/OAEI2022/OAEI2022_results.md)
+  **The MSE Benchmark was used for the very first time as MSE track to evaluate ontology matching tools in the OAEI campaign 2022:**  
+  [**Results of the Evaluation for the MSE track within OAEI 2022**](Results/OAEI2022/OAEI2022_results.md)
 
 ## Table of Content
 
 - [MSE Benchmark Description](#msebenchmarkdescription)
-    - [MSE Benchmark Structure](#msebenchmarkstructure)
     - [MSE Test Cases](#msetestcases)
     - [Manual Reference Alignments](#manualreferencealignments)
     - [Background Knowledge Ontologies](#backgroundknowledgeontologies)
@@ -21,15 +20,11 @@ The project may also include future improvements for the Benchmark.
 
 ***The MSE Benchmark V1.0 consists of:***
 
- - Three MSE test cases
- - A manual reference alignment for every test case
+ - Three MSE test cases including two ontologies
+    - A manual reference alignment for every test case
  - MSE background knowledge ontologies
 
-<a name="msebenchmarkstructure"/> 
-
-### MSE Benchmark Structure
-
-- ***Test Cases***
+***Test Cases***
     - First Test Case: 
         - Source Ontology (O1)
         - Target Ontology (O2)
@@ -42,9 +37,8 @@ The project may also include future improvements for the Benchmark.
         - Source Ontology (O1)
         - Target Ontology (O2)
         - Manual Reference Alignment (R)  
-        ####
 
-- ***Resouces (Background Knowledge Ontologies)***
+***Resouces (Background Knowledge Ontologies)***
     - Periodic Table Dictionary
     - EMMO (European Materials Modelling Ontology)
     - Other resources were used like WordNet which can be found Online ([Github Page](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge))
