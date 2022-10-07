@@ -8,7 +8,7 @@ This GitHub repository serves for management and further development of the benc
 
 ----
 
-**The MSE Benchmark was used for the very first time as MSE track to evaluate ontology matching tools in the OAEI campaign 2022:**  
+**The MSE Benchmark was used for the very first time as MSE track to evaluate ontology matching systems in the OAEI campaign 2022:**  
 [**Results of the Evaluation for the MSE track within OAEI 2022**](Results/OAEI2022/OAEI2022_results.md)
 
 ----
