@@ -17,9 +17,7 @@ The project may also include future improvements for the Benchmark.
 <a name="msebenchmarkdescription"/>  
 
 ## MSE Benchmark Description
-The MSE Benchmark V1.0 consists of three MSE test cases each including two ontologies, 
-    - A manual reference alignment for every test case
- - MSE background knowledge ontologies
+The MSE Benchmark V1.0 consists of three MSE test cases each including two ontologies, a manual reference alignment for every test case and MSE-related background knowledge ontologies:
 
 - ***Test Cases***
     - First Test Case: 
