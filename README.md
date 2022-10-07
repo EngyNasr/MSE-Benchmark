@@ -74,7 +74,7 @@ A test case consists of two OWL-ontologies chosen from these MSE ontologies:
     - EMMO adapts the BFO in its creation, accordingly classes are similar to the BFO but modified.
     - The full ontology consists of 451 classes, 35 properties (relations) and 0 individuals (instances of the classes).
 
-***Test Cases Design:***
+### Test Cases Design
 
 [![Test-Cases-Design.jpg](https://i.postimg.cc/3NXxfmK9/Test-Cases-Design.jpg)](https://postimg.cc/YLS7h4Lm)
 
