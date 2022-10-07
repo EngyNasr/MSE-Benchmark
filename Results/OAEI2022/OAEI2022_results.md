@@ -2,7 +2,7 @@
 This is the first year the MSE track participates in a OAEI campaign. We are proud to be part of it and would like to thank everyone who has supported us along the way!
 
 ## Evaluation modalities
-We performed the evaluation using the MELT platform for matching correspondence of classes only. Every participating system was executed in its standard setting and we compare precision, recall and F-measure with regard to the reference alignment for each test case. 
+We performed the evaluation using the MELT platform. Every participating system was executed in its standard setting and we compare precision, recall and F-measure with regard to the reference alignment for each test case. 
 
 ## Participating systems
 This year five systems registered on this track, each of which was used for evaluation. AMD produced an exception and produced empty alignment files, so results are only available for four of the matchers:
@@ -27,16 +27,16 @@ The following are the results of the participating systems in OAEI 2022 that are
 | A-LIOn   |           23         |   0.130   | 0.130  | 0.130      |
 | LogMap   |            1         |    1.00   | 0.043  | 0.083      |
 | LogMapLight |         5         |    0.400  | 0.086  | 0.142      |
-| Matcha   |            4         |    0.0ßß  | 0.0ßß  | 0.000      |
+| Matcha   |            4         |    0.000  | 0.000  | 0.000      |
 
 **Second Test Case**
 
-| System   | Precision | Recall | F-Measure |
-|----------|-----------|--------|-----------|
-| A-LIOn   |           |        |           |
-| LogMap   |           |        |           |
-| LogMapLight |           |        |           |
-| Matcha   |           |        |           |
+| System   | # of Correspondences | Precision | Recall | F1-Measure |
+|:--------:|:--------------------:|:---------:|:------:|:----------:|
+| A-LIOn   |           163        |   0.387   | 0.209  | 0.271      |
+| LogMap   |            67        |   0.881   | 0.195  | 0.320      |
+| LogMapLight |         67        |   0.851   | 0.189  | 0.309      |
+| Matcha   |            6         |   0.000   | 0.000  | 0.000      |
 
 **Third Test Case**
 | System   | Precision | Recall | F-Measure |
