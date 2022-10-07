@@ -2,7 +2,7 @@
 This is the first year the MSE track participates in a OAEI campaign. We are proud to be part of it and would like to thank everyone who has supported us along the way!
 
 ## Evaluation modalities
-We performed the evaluation using the MELT platform. Every participating system was executed in its standard setting and we compare precision, recall and F-measure with regard to the reference alignment for each test case. 
+We performed the evaluation using the MELT platform on a Windows 10 system with 16 GB RAM. Every participating system was executed in its standard setting and we compare precision, recall and F-measure with regard to the reference alignment for each test case. 
 
 ## Participating systems
 This year five systems registered on this track, each of which was used for evaluation. AMD produced an exception and produced empty alignment files, so results are only available for four of the matchers:
@@ -22,29 +22,29 @@ The following are the results of the participating systems in OAEI 2022 that are
 
 **First Test Case**
 
-| System   | # of Correspondences | Precision | Recall | F1-Measure |
-|:--------:|:--------------------:|:---------:|:------:|:----------:|
-| A-LIOn   |           23         |   0.130   | 0.130  | 0.130      |
-| LogMap   |            1         |    1.00   | 0.043  | 0.083      |
-| LogMapLight |         5         |    0.400  | 0.086  | 0.142      |
-| Matcha   |            4         |    0.000  | 0.000  | 0.000      |
+| System   | # of Correspondences | Precision | Recall | F1-Measure | Time [s] |
+|:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
+| A-LIOn   |           23         |   0.130   | 0.130  | 0.130      |   38     |
+| LogMap   |            1         |    1.00   | 0.043  | 0.083      |    9     |
+| LogMapLight |         5         |    0.400  | 0.087  | 0.143      |   27     |
+| Matcha   |            4         |    0.000  | 0.000  | 0.000      |   22     |
 
 **Second Test Case**
 
-| System   | # of Correspondences | Precision | Recall | F1-Measure |
-|:--------:|:--------------------:|:---------:|:------:|:----------:|
-| A-LIOn   |           163        |   0.387   | 0.209  | 0.271      |
-| LogMap   |            67        |   0.881   | 0.195  | 0.320      |
-| LogMapLight |         67        |   0.851   | 0.189  | 0.309      |
-| Matcha   |            6         |   0.000   | 0.000  | 0.000      |
+| System   | # of Correspondences | Precision | Recall | F1-Measure | Time [s] |
+|:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
+| A-LIOn   |           163        |   0.387   | 0.209  | 0.271      |  208     |
+| LogMap   |            67        |   0.881   | 0.195  | 0.320      |    3     |            
+| LogMapLight |         67        |   0.851   | 0.189  | 0.309      |   83     |
+| Matcha   |            6         |   0.000   | 0.000  | 0.000      |   15     |
 
 **Third Test Case**
-| System   | Precision | Recall | F-Measure |
-|----------|-----------|--------|-----------|
-| A-LIOn   |           |        |           |
-| LogMap   |           |        |           |
-| LogMapLight |           |        |           |
-| Matcha   |           |        |           |
+| System   | # of Correspondences | Precision | Recall | F1-Measure | Time [s] |
+|:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
+| A-LIOn   |           0          |   0.000   | 0.000  | 0.000      | 135      |
+| LogMap   |            56        |   0.946   | 0.841  | 0.891      | 14       |
+| LogMapLight |         56        |   0.911   | 0.810  | 0.857      | 84       |
+| Matcha   |            4         |   0.500   | 0.032  | 0.060      | 21       |
 
 ## Conclusions
 
