@@ -16,7 +16,8 @@ This GitHub repository serves for management and further development of the benc
 ## Table of Content
 
 - [MSE Benchmark Description](#msebenchmarkdescription)
-    - [MSE Test Cases](#msetestcases)
+    - [MSE Ontologies](#mseontologies)
+    - [Test Cases](#msetestcases)
     - [Manual Reference Alignments](#manualreferencealignments)
     - [Background Knowledge Ontologies](#backgroundknowledgeontologies)
 
@@ -46,9 +47,9 @@ The MSE Benchmark v1 consists of three MSE test cases each including two ontolog
     - EMMO (European Materials Modelling Ontology)
     - Other resources were used like WordNet which can be found on their [Github repo](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge).
 
-<a name="msetestcases"/>  
+<a name="mseontologies"/>  
 
-### MSE Test Cases
+### MSE ontologies used for the test cases
 
 The MSE benchmark consists of three test cases. The ontologies chosen do not target very specialized disciplines of the MSE domain, e.g. ceramics. They are designed to be general to the MSE domain. Being from a similar level of specialization, they should be matched to each other and used for the evaluation of the ontology matchers.
 
@@ -74,24 +75,29 @@ A test case consists of two OWL-ontologies chosen from these MSE ontologies:
     - EMMO adapts the BFO in its creation, accordingly classes are similar to the BFO but modified.
     - The full ontology consists of 451 classes, 35 properties (relations) and 0 individuals (instances of the classes).
 
-### Test Cases Design
+<a name="msetestcasedesign"/>  
+
+### MSE Test Case Design
 
 [![Test-Cases-Design.jpg](https://i.postimg.cc/3NXxfmK9/Test-Cases-Design.jpg)](https://postimg.cc/YLS7h4Lm)
 
 <sup>Summary of the three test cases compositions, created from above mentioned MSE ontologies, such that the green rectangles show the upper level ontologies EMMO and the BFO and the blue circles show the domain specific ontologies. The 1st test case is between a reduced subset of MaterialInformation ontology and  the complete MatOnto (BFO + MatOnto). The 2nd test case is between the complete MaterialInformation ontology and the complete MatOnto (BFO + MatOnto). Finally, the 3rd test case is between the EMMO upper level ontology and the complete MaterialInformation ontology.</sup>
 
 
-***1st Test Case (MatOnto - Reduced MaterialInformation):***
+#### 1st Test Case 
+**MatOnto - Reduced MaterialInformation**
 
  - This test case is designed to demonstrate the behavior of the ontology matchers upon two domain specific MSE ontologies. It is designed small in terms of the number of entities to be able to evaluate and discuss ontology matchers on the expected possible logical relations (e.g., =, ⊆, ⊇, ⊥) that would be the best practice to have as alignments between the two ontologies’ classes, enabling an easier interoperable merging afterwards.
  - The test case is designed to discuss how each matcher implicitly shows more logical relations and how to improve each matcher result.
 
-***2nd Test Case (MaterialInformation - MatOnto):***
+### 2nd Test Case 
+**MaterialInformation - MatOnto)**
  - This test case is a bigger scale version of the 1st test case in terms of the number entities, but not in terms of the variety of logical relations, it only consists of the equivalence (=) logical relation.
  - Both of the ontologies included in the test case are domain specific ontologies, MatOnto bases on the BFO as its upper level ontology however, MaterialInformation ontology has no base of any formal (upper leverl ontology) ontology.
  - This test case is a typical practice if two MSE domain ontologies are decided to be merged in one ontology to see how far the ontology matchers will get alignments of ontologies’ classes of the same domain, and how the ontology matchers will help in improving interoperability between these two ontologies due to the difference of usage of the formal ontologies.
 
-***3rd Test Case (EMMO - MaterialInformation ):***
+### 3rd Test Case
+**EMMO - MaterialInformation**
  - This test case is designed for a case in which a domain ontology has to be merged to an upper level ontology in order to maximize the cross-domain interoperability of this domain ontology. 
  - To do so, the most commonly known upper level ontology in the domain ontology's domain is chosen, and then merged to it. 
  - Accordingly, a matching should be done first between the domain ontology and the upper level ontology chosen.
