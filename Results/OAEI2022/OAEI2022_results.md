@@ -18,7 +18,7 @@ We have collected all generated alignments and make them available in a zip-file
 
 ## Results
 
-The following are the results of the participating systems in OAEI 2022 that are completed with the our MSE benchmark.
+The following are the results of the participating systems in OAEI 2022 within the MSE track.
 
 **First Test Case**
 
