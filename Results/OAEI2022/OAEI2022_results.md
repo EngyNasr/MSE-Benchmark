@@ -1,5 +1,5 @@
 # Results of Evaluation for the MSE track within OAEI 2022 
-This is the first year the MSE track participates in a OAEI campaign. We are proud to be part of the OAEI campaign and would like to thank everyone who has supported us along the way!
+This is the first year the MSE track participates in a OAEI campaign. We are proud to be part of it and would like to thank everyone who has supported us along the way!
 
 ## Evaluation modalities
 We performed the evaluation using the MELT platform. Every participating system was executed in its standard setting and we compare precision, recall and F-measure with regard to the reference alignment for each test case. 
