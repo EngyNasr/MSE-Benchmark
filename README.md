@@ -125,7 +125,7 @@ Include only the equivalence (=) logical relation (correspondences) between the 
 
 ## Background Knowledge Ontologies
 
-The background knowledge ontology acts as a **Resources** (semantic bridge), a midway in the matching process between the two input ontologies. If a class from the first ontology is not lexically aligned (String Matching) to another class from the second ontology, but they are defined to be synonymous of each other in the background kwowledge ontology, then they will be aligned together as equivalent based on the knowledge provided by the background knowledge ontology.
+The background knowledge ontology act as **resources** (semantic bridge), a midway in the matching process between the two input ontologies. If a class from the first ontology is not lexically aligned (String Matching) to another class from the second ontology, but they are defined to be synonymous of each other in the background kwowledge ontology, then they will be aligned together as equivalent based on the knowledge provided by the background knowledge ontology.
 
 ***Periodic Table Dictionary:***
     
