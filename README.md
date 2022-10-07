@@ -9,10 +9,23 @@ The project may also include future improvements for the Benchmark.
 
 ## Table of content
 
-- [Background Knowledge Ontologies](#backgroundknowledgeontologies)
+- [MSE Benchmark Description](#msebenchmarkdescription)
+    - [MSE Benchmark Structure](#msebenchmarkstructure)
+    - [MSE Test Cases](#msetestcases)
+    - [Manual Reference Alignments](#manualreferencealignments)
+    - [Background Knowledge Ontologies](#backgroundknowledgeontologies)
 
+<a name="msebenchmarkdescription"/>
+## MSE Benchmark Description
 
-## MSE Benchmark Structure
+***The MSE Benchmark V1.0 consists of:***
+
+ - Three MSE test cases
+ - A manual reference alignment for every test case
+ - MSE background knowledge ontologies
+
+<a name="msebenchmarkstructure"/>
+### MSE Benchmark Structure
 
 - ***Test Cases***
     - First Test Case: 
@@ -34,19 +47,12 @@ The project may also include future improvements for the Benchmark.
     - EMMO (European Materials Modelling Ontology)
     - Other resources were used like WordNet which can be found Online ([Github Page](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge))
 
-## MSE Benchmark Description
-
-### The MSE benchmark V1.0 consists of:
-
- - Three MSE test cases
- - A manual reference alignment for every test case
- - MSE background knowledge ontologies
-
+<a name="msetestcases"/>
 ### MSE Test Cases:
 
 One major part of the MSE benchmark are the test cases. The ontologies chosen do not target very specialized disciplines of the MSE domain, e.g. ceramics. They are all created to be general to the MSE domain. Being from the same level of specialization, they can be matched to each other and used for the evaluation of the ontology matchers.
 
-***A test case is a two-ontology OWL files chosen from three different MSE ontologies:***
+***A test case consists of two OWL-ontologies chosen from three different MSE ontologies:***
 
  - **MaterialInformation** ontology created by Prof. Ashino in Japan [Prof.Ashino's Paper](https://pdfs.semanticscholar.org/7f0a/d9346c8664bbb9e7d60c1efbd663a7790cdb.pdf?_ga=2.38778980.631833280.1600761428-1848885946.1600761428)
    - The ontology is not openly available, however, it was provided upon request. 
@@ -91,7 +97,8 @@ One major part of the MSE benchmark are the test cases. The ontologies chosen do
  - Accordingly, a matching should be done first between the domain ontology and the upper level ontology chosen.
 The EMMO is chosen as an upper level ontology, since EMMO is mainly designed for the MSE domain.
 
-### Manual Reference Alignments:
+<a name="manualreferencealignments"/>
+### Manual Reference Alignments
 The second part of the MSE benchmark is the manual reference alignment, which are the expected result from the test cases’ alignment. They are compared to the result of the ontology matchers. For every test case, a manual reference alignment is created.
 
 - Singulars and plurals are equivalently matched (e.g. water = waters).
@@ -111,7 +118,7 @@ Include only the equivalence (=) logical relation (correspondences) between the 
 Include only the equivalence (=) logical relation (correspondences) between the ontologies’ classes.
 
 <a name="backgroundknowledgeontologies"/>
-### Background Knowledge Ontologies:
+### Background Knowledge Ontologies
 
 The background knowledge ontology acts as a **Resources** (semantic bridge), a midway in the matching process between the two input ontologies. If a class from the first ontology is not lexically aligned (String Matching) to another class from the second ontology, but they are defined to be synonymous of each other in the background kwowledge ontology, then they will be aligned together as equivalent based on the knowledge provided by the background knowledge ontology.
 
@@ -119,7 +126,6 @@ The background knowledge ontology acts as a **Resources** (semantic bridge), a m
     
  - The dictionary is created using Protege, saved as an ontology (.OWL) file to represent a specific case that was spot out from the test cases creation. 
  - It includes all elements of the periodic table, and in the same class of each element the (rdf:label) includes the element’s abbreviation.
-    
     
 ***EMMO:***
 
