@@ -24,7 +24,7 @@ This GitHub repository serves for management and further development of the benc
 <a name="msebenchmarkdescription"/>  
 
 ## MSE Benchmark Description
-The MSE Benchmark V1.0 consists of three MSE test cases each including two ontologies, a manual reference alignment for every test case and MSE-related background knowledge ontologies:
+The MSE Benchmark v1.1 consists of three MSE test cases each including two ontologies, a manual reference alignment for every test case and MSE-related background knowledge ontologies:
 
 - **Test Cases**
     - First Test Case: 
