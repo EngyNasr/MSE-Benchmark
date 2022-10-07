@@ -14,7 +14,7 @@ This year five systems registered on this track, each of which was used for eval
 ## Generated alignments
 We have collected all generated alignments and make them available in a zip-file via the following link. These alignments are the raw results that the following report is based on.
 
-[>>> Download alignments here](/Results/OAEI2022/oaei2022-mse-alignments.zip)
+[>>> Download alignments here](https://github.com/EngyNasr/MSE-Benchmark/raw/main/Results/OAEI2022/oaei2022-mse-alignments.zip)
 
 ## Results
 
