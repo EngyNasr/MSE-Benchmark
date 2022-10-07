@@ -48,9 +48,9 @@ The MSE Benchmark V1.0 consists of three MSE test cases each including two ontol
 
 <a name="msetestcases"/>  
 
-### MSE Test Cases:
+### MSE Test Cases
 
-One major part of the MSE benchmark are the test cases. The ontologies chosen do not target very specialized disciplines of the MSE domain, e.g. ceramics. They are all created to be general to the MSE domain. Being from the same level of specialization, they can be matched to each other and used for the evaluation of the ontology matchers.
+The MSE benchmark consists of three test cases. The ontologies chosen do not target very specialized disciplines of the MSE domain, e.g. ceramics. They are designed to be general to the MSE domain. Being from a similar level of specialization, they should be matched to each other and used for the evaluation of the ontology matchers.
 
 ***A test case consists of two OWL-ontologies chosen from three different MSE ontologies:***
 
