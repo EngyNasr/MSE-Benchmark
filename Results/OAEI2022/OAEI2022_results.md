@@ -22,7 +22,7 @@ The following are the results of the participating systems in OAEI 2022 that are
 
 **First Test Case**
 
-| System   | # of Correspondences | Precision | Recall | F1-Measure | Time [s] |
+| System   | Correspondences | Precision | Recall | F1-Measure | Time [s] |
 |:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
 | A-LIOn   |           23         |   0.130   | 0.130  | 0.130      |   38     |
 | LogMap   |            1         |    1.00   | 0.043  | 0.083      |    9     |
@@ -31,7 +31,7 @@ The following are the results of the participating systems in OAEI 2022 that are
 
 **Second Test Case**
 
-| System   | # of Correspondences | Precision | Recall | F1-Measure | Time [s] |
+| System   | Correspondences | Precision | Recall | F1-Measure | Time [s] |
 |:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
 | A-LIOn   |           163        |   0.387   | 0.209  | 0.271      |  208     |
 | LogMap   |            67        |   0.881   | 0.195  | 0.320      |    3     |            
@@ -39,7 +39,7 @@ The following are the results of the participating systems in OAEI 2022 that are
 | Matcha   |            6         |   0.000   | 0.000  | 0.000      |   15     |
 
 **Third Test Case**
-| System   | # of Correspondences | Precision | Recall | F1-Measure | Time [s] |
+| System   | Correspondences | Precision | Recall | F1-Measure | Time [s] |
 |:--------:|:--------------------:|:---------:|:------:|:----------:|:--------:|
 | A-LIOn   |           0          |   0.000   | 0.000  | 0.000      | 135      |
 | LogMap   |            56        |   0.946   | 0.841  | 0.891      | 14       |
