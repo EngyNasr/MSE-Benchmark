@@ -52,7 +52,7 @@ The MSE Benchmark v1 consists of three MSE test cases each including two ontolog
 
 The MSE benchmark consists of three test cases. The ontologies chosen do not target very specialized disciplines of the MSE domain, e.g. ceramics. They are designed to be general to the MSE domain. Being from a similar level of specialization, they should be matched to each other and used for the evaluation of the ontology matchers.
 
-***A test case consists of two OWL-ontologies chosen from three different MSE ontologies:***
+A test case consists of two OWL-ontologies chosen from these MSE ontologies:
 
  - **MaterialInformation** ontology created by Prof. Ashino [[Toshihiro Ashino (2010)](https://pdfs.semanticscholar.org/7f0a/d9346c8664bbb9e7d60c1efbd663a7790cdb.pdf?_ga=2.38778980.631833280.1600761428-1848885946.1600761428)]
    - The ontology is not openly available, however, it was provided upon request. 
