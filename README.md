@@ -15,7 +15,7 @@ The project may also include future improvements for the Benchmark.
     - [Manual Reference Alignments](#manualreferencealignments)
     - [Background Knowledge Ontologies](#backgroundknowledgeontologies)
 
-<a name="msebenchmarkdescription"/>
+<a name="msebenchmarkdescription"/>  
 ## MSE Benchmark Description
 
 ***The MSE Benchmark V1.0 consists of:***
@@ -24,7 +24,7 @@ The project may also include future improvements for the Benchmark.
  - A manual reference alignment for every test case
  - MSE background knowledge ontologies
 
-<a name="msebenchmarkstructure"/>
+<a name="msebenchmarkstructure"/>  
 ### MSE Benchmark Structure
 
 - ***Test Cases***
@@ -47,7 +47,7 @@ The project may also include future improvements for the Benchmark.
     - EMMO (European Materials Modelling Ontology)
     - Other resources were used like WordNet which can be found Online ([Github Page](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge))
 
-<a name="msetestcases"/>
+<a name="msetestcases"/>  
 ### MSE Test Cases:
 
 One major part of the MSE benchmark are the test cases. The ontologies chosen do not target very specialized disciplines of the MSE domain, e.g. ceramics. They are all created to be general to the MSE domain. Being from the same level of specialization, they can be matched to each other and used for the evaluation of the ontology matchers.
@@ -97,7 +97,7 @@ One major part of the MSE benchmark are the test cases. The ontologies chosen do
  - Accordingly, a matching should be done first between the domain ontology and the upper level ontology chosen.
 The EMMO is chosen as an upper level ontology, since EMMO is mainly designed for the MSE domain.
 
-<a name="manualreferencealignments"/>
+<a name="manualreferencealignments"/>  
 ### Manual Reference Alignments
 The second part of the MSE benchmark is the manual reference alignment, which are the expected result from the test cases’ alignment. They are compared to the result of the ontology matchers. For every test case, a manual reference alignment is created.
 
@@ -117,7 +117,7 @@ Include only the equivalence (=) logical relation (correspondences) between the 
 
 Include only the equivalence (=) logical relation (correspondences) between the ontologies’ classes.
 
-<a name="backgroundknowledgeontologies"/>
+<a name="backgroundknowledgeontologies"/>  
 ### Background Knowledge Ontologies
 
 The background knowledge ontology acts as a **Resources** (semantic bridge), a midway in the matching process between the two input ontologies. If a class from the first ontology is not lexically aligned (String Matching) to another class from the second ontology, but they are defined to be synonymous of each other in the background kwowledge ontology, then they will be aligned together as equivalent based on the knowledge provided by the background knowledge ontology.
