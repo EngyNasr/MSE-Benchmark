@@ -9,7 +9,7 @@ The project may also include future improvements for the Benchmark.
 
 ## Table of content
 
-[test](#Background Knowledge Ontologies)
+[test](#backgroundknowledgeontologies)
 
 
 ## MSE Benchmark Structure
@@ -110,7 +110,7 @@ Include only the equivalence (=) logical relation (correspondences) between the 
 
 Include only the equivalence (=) logical relation (correspondences) between the ontologies’ classes.
 
-<a name="Background Knowledge Ontologies"/>
+<a name="backgroundknowledgeontologies"/>
 ### Background Knowledge Ontologies:
 
 The background knowledge ontology acts as a **Resources** (semantic bridge), a midway in the matching process between the two input ontologies. If a class from the first ontology is not lexically aligned (String Matching) to another class from the second ontology, but they are defined to be synonymous of each other in the background kwowledge ontology, then they will be aligned together as equivalent based on the knowledge provided by the background knowledge ontology.
