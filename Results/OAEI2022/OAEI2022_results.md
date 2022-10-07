@@ -2,7 +2,7 @@
 This is the first year the MSE track participates in a OAEI campaign. We are proud to be part of it and would like to thank everyone who has supported us along the way!
 
 ## Evaluation modalities
-We performed the evaluation using the MELT platform on a Windows 10 system with 16 GB RAM. Every participating system was executed in its standard setting and we compare precision, recall and F-measure as well as the computation time. 
+We performed the evaluation using the MELT platform on a Windows 10 system with 16 GB RAM. For the time being, no background knowledge was used for evaluation. Every participating system was executed in its standard setting and we compare precision, recall and F-measure as well as the computation time. 
 
 ## Participating systems
 This year five systems registered on this track, each of which was used for evaluation with the three test cases of the MSE benchmark. AMD produced errors and an empty alignment file, so results are only available for four of the matchers:
