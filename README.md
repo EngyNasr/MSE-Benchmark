@@ -9,7 +9,7 @@ The project may also include future improvements for the Benchmark.
 
 ## Table of content
 
-[test](#backgroundknowledgeontologies)
+- [Background Knowledge Ontologies](#backgroundknowledgeontologies)
 
 
 ## MSE Benchmark Structure
