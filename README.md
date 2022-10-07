@@ -1,4 +1,4 @@
-# MSE Benchmark V1.0
+# MSE Benchmark V1.1
 
 This project includes the MSE (Material Sciences and Engineering) benchmark created by Engy Nasr during her Master's Thesis in Computer Science at the 
 Albert-Ludwigs-Universität Freiburg:
