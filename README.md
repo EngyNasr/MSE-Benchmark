@@ -54,21 +54,21 @@ The MSE benchmark consists of three test cases. The ontologies chosen do not tar
 
 A test case consists of two OWL-ontologies chosen from these MSE ontologies:
 
- - **MaterialInformation** ontology created by Prof. Ashino [[Toshihiro Ashino (2010)](https://pdfs.semanticscholar.org/7f0a/d9346c8664bbb9e7d60c1efbd663a7790cdb.pdf?_ga=2.38778980.631833280.1600761428-1848885946.1600761428)]
+ - **MaterialInformation** ontology created by [Toshihiro Ashino](https://pdfs.semanticscholar.org/7f0a/d9346c8664bbb9e7d60c1efbd663a7790cdb.pdf?_ga=2.38778980.631833280.1600761428-1848885946.1600761428)
    - The ontology is not openly available, however, it was provided upon request. 
    - The ontology is not based on an upper level ontology, which makes the ontology not easily interoperable with other MSE ontologies. 
    - The ontology is also divided into smaller ontologies (partitions). 
    - The partitions are Environment, Geometry, Material Information, Manufacturing Process, Property, Substance, Unit Dimension, Structure, Equation and Physical Constant. 
    - The full ontology consists of 545 classes, 98 properties (relations) and 411 individuals (instances of the classes).
 ####
- - **MatOnto** ontology available on [GitHub](https://github.com/inovexcorp/MatOnto-Ontologies)
+ - **MatOnto** available on [GitHub](https://github.com/inovexcorp/MatOnto-Ontologies)
    - The cloned ontology's files are RDF data, saved in Turtle (.ttl) format. 
    - The files are converted from Turtle format into RDF/XML, (.OWL).
    - The ontology is based on the upper level ontology, the BFO. 
    - The full ontology consists of 847 classes, 96 properties (relations) and 131 individuals (instances of the classes).
 ####
 - **EMMO** (European Materials Modelling Ontology) v1.0.0-alpha2, available on [Github](https://github.com/emmo-repo/EMMO/tree/1.0.0-alpha2)
-    - EMMO is an ongoing MSE ontology.
+    - EMMO is a MSE ontology still in development.
     - This version is downloaded on November 2020.
     - EMMO is an upper and mid level ontology.
     - EMMO adapts the BFO in its creation, accordingly classes are similar to the BFO but modified.
