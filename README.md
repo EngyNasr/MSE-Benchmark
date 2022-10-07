@@ -26,7 +26,7 @@ This GitHub repository serves for management and further development of the benc
 ## MSE Benchmark Description
 The MSE Benchmark V1.0 consists of three MSE test cases each including two ontologies, a manual reference alignment for every test case and MSE-related background knowledge ontologies:
 
-- ***Test Cases***
+- **Test Cases**
     - First Test Case: 
         - Source Ontology (O1)
         - Target Ontology (O2)
@@ -41,7 +41,7 @@ The MSE Benchmark V1.0 consists of three MSE test cases each including two ontol
         - Manual Reference Alignment (R)  
         ####
 
-- ***Resouces (Background Knowledge Ontologies)***
+- **Resources (Background Knowledge Ontologies)**
     - Periodic Table Dictionary
     - EMMO (European Materials Modelling Ontology)
     - Other resources were used like WordNet which can be found Online ([Github Page](https://github.com/AgreementMakerLight/AML-Project/tree/master/AgreementMakerLight/store/knowledge))
