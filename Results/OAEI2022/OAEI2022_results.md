@@ -29,6 +29,8 @@ The following are the results of the participating systems in OAEI 2022 within t
 | LogMapLight |         5         |   0.400   | 0.087  | 0.143      |   27     |
 | Matcha   |            4         |   0.000   | 0.000  | 0.000      |   22     |
 
+The first test case evaluates matching systems regarding their capability to find "equal" (=), "superclass" (>) and "subclass" (<) correspondences. None of the systems finds correspondences other than "equal (=)". All evaluated systems compute the alignment in less than a minute. LogMap stands out with its very fast calculation time and maximum precision of 1.0. However, since only one correspondence was found, the recall and F1-measure are low (0.083). In direct comparison, LogMapLight calculates the alignment in 27s, achieves much lower precision of 0.4 but due to greater amount of correctly found correspondences the F1-measure is the best of the tested systems. A-LIOn finds the highest number of correspondences with 23 but 20 of those are false positives which results in the second best F1-measure at the lowest calculation time. Matcha finds 4 incorrect crorrespondences and is worst participant of the MSE test case one. Investigating the reason for the bad result, matcha appears to match classes with objectpropertiers, e.g. "Temperature=hasTemperature".
+
 **Second Test Case**
 
 | System   | Correspondences | Precision | Recall | F1-Measure | Time [s] |
