@@ -56,7 +56,7 @@ The third test case evaluates matching systems to find correspondences between t
 ## Conclusions
 Unfortunately, none of the evaluated matcher finds all reference correspondences correctly. 
 
-LogMap stands out for its very fast computing speed with very high precision at the same time. LogMapLight is significantly slower in every test case and almost constantly shows worse results - only in the first test case the recall of LogMapLight is higher than for LogMap. In our opinion, LogMap is definitely recommended for MSE applications where high precision is demanded. In comparison to that LogMapLight does not appear to bring any decisive advantage. 
+LogMap stands out for its very fast computing speed with very high precision at the same time. LogMapLight is significantly slower in every test case and almost constantly shows worse results - only in the first test case the recall of LogMapLight is higher than for LogMap. In our opinion, LogMap is definitely recommended for MSE applications where high precision is demanded. In comparison to that, LogMapLight does not appear to bring any decisive advantage over LogMap. 
 
 Matcha in its current implementation is not suited for MSE applications. 
 
