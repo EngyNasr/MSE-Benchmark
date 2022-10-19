@@ -1,6 +1,6 @@
 # MSE Benchmark v1.1
 
-This project includes the MSE (Material Sciences and Engineering) benchmark created by Engy Nasr during her Master's Thesis in Computer Science at the 
+The MSE (Material Sciences and Engineering) benchmark was created by Engy Nasr during her Master's Thesis in Computer Science at the 
 Albert-Ludwigs-Universität Freiburg:
 [Evaluation of Automatic Ontology Matching for Materials Sciences and Engineering (2020)](https://ad-publications.cs.uni-freiburg.de/theses/Master_Engy_Nasr_2020.pdf). 
 
