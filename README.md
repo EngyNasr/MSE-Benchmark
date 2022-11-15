@@ -1,6 +1,6 @@
 # MSE Benchmark v1.1
 
-This project includes the MSE (Material Sciences and Engineering) benchmark created by Engy Nasr during her Master's Thesis in Computer Science at the 
+The MSE (Material Sciences and Engineering) benchmark was created by Engy Nasr during her Master's Thesis in Computer Science at the 
 Albert-Ludwigs-Universität Freiburg:
 [Evaluation of Automatic Ontology Matching for Materials Sciences and Engineering (2020)](https://ad-publications.cs.uni-freiburg.de/theses/Master_Engy_Nasr_2020.pdf). 
 
@@ -91,7 +91,7 @@ A test case consists of two OWL-ontologies chosen from these MSE ontologies:
 
 ### 2nd Test Case: MaterialInformation - MatOnto
  - This test case is a bigger scale version of the 1st test case in terms of the number entities, but not in terms of the variety of logical relations, it only consists of the equivalence (=) logical relation.
- - Both of the ontologies included in the test case are domain specific ontologies, MatOnto bases on the BFO as its upper level ontology however, MaterialInformation ontology has no base of any formal (upper leverl ontology) ontology.
+ - Both of the ontologies included in the test case are domain specific ontologies, MatOnto bases on the BFO as its upper level ontology. However, MaterialInformation has no base in terms of upper level ontology.
  - This test case is a typical practice if two MSE domain ontologies are decided to be merged in one ontology to see how far the ontology matchers will get alignments of ontologies’ classes of the same domain, and how the ontology matchers will help in improving interoperability between these two ontologies due to the difference of usage of the formal ontologies.
 
 ### 3rd Test Case: EMMO - MaterialInformation
@@ -125,7 +125,7 @@ Include only the equivalence (=) logical relation (correspondences) between the 
 
 ## Background Knowledge Ontologies
 
-The background knowledge ontology acts as a **Resources** (semantic bridge), a midway in the matching process between the two input ontologies. If a class from the first ontology is not lexically aligned (String Matching) to another class from the second ontology, but they are defined to be synonymous of each other in the background kwowledge ontology, then they will be aligned together as equivalent based on the knowledge provided by the background knowledge ontology.
+The background knowledge ontology act as **resources** (semantic bridge), a midway in the matching process between the two input ontologies. If a class from the first ontology is not lexically aligned (String Matching) to another class from the second ontology, but they are defined to be synonymous of each other in the background kwowledge ontology, then they will be aligned together as equivalent based on the knowledge provided by the background knowledge ontology.
 
 ***Periodic Table Dictionary:***
     
