@@ -1,11 +1,11 @@
-# Results of Evaluation for the MSE track within OAEI 2023 
+# Results of evaluation for the MSE track within OAEI 2023 
 This is the second time the MSE track participates in an OAEI campaign. We are proud to be part of it and would like to thank everyone who has supported us along the way!
 
 ## Evaluation modalities
 We performed the evaluation using the MELT platform on a laptop with Intel i7-1260P at 2.10 GHz, 16 GB RAM and Windows 11. Every participating system was executed in its standard setting and we compare precision, recall and F-measure as well as the computation time. No background knowledge was used for evaluation. 
 
 ## Participating systems
-This year four systems registered on this track, each of which was used for evaluation with the three test cases of the MSE benchmark. AMD produced errors and an empty alignment file, so results are only available for three of the matchers:
+This year four systems registered on this track, each of which was used for evaluation with the three test cases of the MSE track. AMD produced errors and an empty alignment file, so results are only available for three of the matchers:
 - LogMap
 - LogMapLite
 - Matcha
