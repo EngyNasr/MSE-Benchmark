@@ -1828,16 +1828,8 @@
     <owl:Class rdf:about="http://codata.jp/OML-MaterialInformation#Chemical">
         <rdfs:subClassOf rdf:resource="http://codata.jp/OML-MaterialInformation#Property"/>
     </owl:Class>
+
     
-
-
-    <!-- http://codata.jp/OML-MaterialInformation#ChemicalComposition -->
-
-    <owl:Class rdf:about="http://codata.jp/OML-MaterialInformation#ChemicalComposition">
-        <rdfs:subClassOf rdf:resource="http://codata.jp/OML-MaterialInformation#EngineeringMaterial"/>
-    </owl:Class>
-    
-
 
     <!-- http://codata.jp/OML-MaterialInformation#Circles -->
 
