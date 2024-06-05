@@ -18,7 +18,7 @@ We have collected all generated alignments and make them available in a zip-file
 
 ## Results
 
-The following results were obtained for the participating matching systems in the OAEI campaign 2022 within the MSE track.
+The following results were obtained for the participating matching systems in the OAEI campaign 2023 within the MSE track.
 
 ### First Test Case
 
